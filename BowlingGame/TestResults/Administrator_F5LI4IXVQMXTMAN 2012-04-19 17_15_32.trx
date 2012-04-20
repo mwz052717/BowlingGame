@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ad836533-312e-4ee1-9c42-b3b340ecbe1b" name="Administrator@F5LI4IXVQMXTMAN 2012-04-19 17:15:32" runUser="F5LI4IXVQMXTMAN\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="55eddd7f-e26d-4924-ac12-753d806eb0d4">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_F5LI4IXVQMXTMAN 2012-04-19 17_15_32" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T17:15:32.4755859+08:00" queuing="2012-04-19T17:15:32.5097656+08:00" start="2012-04-19T17:15:32.5263671+08:00" finish="2012-04-19T17:15:33.1943359+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestScoreNoThrows" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="9a5fd58c-b2f8-08e9-7ec6-962e0ebd488d">
+      <Execution id="c042f65b-fcf3-47b4-9d58-0df516ee6132" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.FrameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreNoThrows" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9a5fd58c-b2f8-08e9-7ec6-962e0ebd488d" executionId="c042f65b-fcf3-47b4-9d58-0df516ee6132" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c042f65b-fcf3-47b4-9d58-0df516ee6132" testId="9a5fd58c-b2f8-08e9-7ec6-962e0ebd488d" testName="TestScoreNoThrows" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.2380341" startTime="2012-04-19T17:15:32.5517578+08:00" endTime="2012-04-19T17:15:33.1064453+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c042f65b-fcf3-47b4-9d58-0df516ee6132">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;0&gt;，实际为: &lt;1&gt;。</Message>
+          <StackTrace>   在 BowlingGameTest.FrameTest.TestScoreNoThrows() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\FrameTest.cs:行号 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

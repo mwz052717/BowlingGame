@@ -1,0 +1,5 @@
+E:\BowlingGame\BowlingGameTest\BowlingGameTest\obj\Debug\ResolveAssemblyReference.cache
+E:\BowlingGame\BowlingGameTest\BowlingGameTest\bin\Debug\BowlingGameTest.dll
+E:\BowlingGame\BowlingGameTest\BowlingGameTest\bin\Debug\BowlingGameTest.pdb
+E:\BowlingGame\BowlingGameTest\BowlingGameTest\obj\Debug\BowlingGameTest.dll
+E:\BowlingGame\BowlingGameTest\BowlingGameTest\obj\Debug\BowlingGameTest.pdb

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f567bcfc-edb8-492c-a7cd-4b704b05144e" name="Administrator@F5LI4IXVQMXTMAN 2012-04-19 23:06:50" runUser="F5LI4IXVQMXTMAN\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="55eddd7f-e26d-4924-ac12-753d806eb0d4">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_F5LI4IXVQMXTMAN 2012-04-19 23_06_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T23:06:50.2509765+08:00" queuing="2012-04-19T23:06:50.2919921+08:00" start="2012-04-19T23:06:50.3095703+08:00" finish="2012-04-19T23:06:50.6748046+08:00" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="10" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSimpleStrike" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="a51fe5dc-4b6f-f220-54b6-19337e28f5e4">
+      <Execution id="97a8da3b-70c8-4859-a3de-4db658d6d8c9" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleStrike" />
+    </UnitTest>
+    <UnitTest name="TestFourThrowsNoMark" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="e69f4d91-862d-4c1f-8ce8-ac18c91b1046">
+      <Execution id="7608c1aa-20cd-4209-b9d0-f5838cfb5a32" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFourThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestSimpleFrameAfterSpare" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="ea37382a-e229-0f26-f638-61865c6375fb">
+      <Execution id="38b49839-62d2-42dd-93c1-1283858e98f8" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleFrameAfterSpare" />
+    </UnitTest>
+    <UnitTest name="TestPerfectGame" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="d53c23bd-c3db-48d3-56fa-aec315209313">
+      <Execution id="1938900a-6990-4449-a46b-9a10b24f4599" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPerfectGame" />
+    </UnitTest>
+    <UnitTest name="TestTwoThrowsNoMark" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="f410da72-b70b-fdf1-23b3-19d130f30e63">
+      <Execution id="ea9d78c6-e14e-48f9-b58a-ccbc6129aa4f" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTwoThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestHeartBreak" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="560cf12a-b6af-52af-1b55-0b7afd85ec3f">
+      <Execution id="13a8932c-61af-49a0-9f95-b970dad86783" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeartBreak" />
+    </UnitTest>
+    <UnitTest name="TestEndOfArray" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="cdf8eefe-12a3-d707-3154-f2165fcb988e">
+      <Execution id="61c07f54-ffb4-4b50-822a-cbc8ba6b0fd7" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEndOfArray" />
+    </UnitTest>
+    <UnitTest name="TestSimpleSpare" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="49c2cf70-c55b-6fe1-0748-e24b3fac3b18">
+      <Execution id="199af911-c6f9-4c0c-af84-c0e1249d292f" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleSpare" />
+    </UnitTest>
+    <UnitTest name="TestSampleGame" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="4a71f6df-a40d-72ce-b695-3152fe11c7e6">
+      <Execution id="c37ae96d-b736-4760-bcfa-7e3225a30524" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSampleGame" />
+    </UnitTest>
+    <UnitTest name="TestTenthFrameSpare" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="e3a5d2b2-7e7b-8adf-f47b-48c284782eca">
+      <Execution id="969816dc-42ee-4139-98e7-36cb197467f1" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTenthFrameSpare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="49c2cf70-c55b-6fe1-0748-e24b3fac3b18" executionId="199af911-c6f9-4c0c-af84-c0e1249d292f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a71f6df-a40d-72ce-b695-3152fe11c7e6" executionId="c37ae96d-b736-4760-bcfa-7e3225a30524" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="560cf12a-b6af-52af-1b55-0b7afd85ec3f" executionId="13a8932c-61af-49a0-9f95-b970dad86783" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a51fe5dc-4b6f-f220-54b6-19337e28f5e4" executionId="97a8da3b-70c8-4859-a3de-4db658d6d8c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdf8eefe-12a3-d707-3154-f2165fcb988e" executionId="61c07f54-ffb4-4b50-822a-cbc8ba6b0fd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d53c23bd-c3db-48d3-56fa-aec315209313" executionId="1938900a-6990-4449-a46b-9a10b24f4599" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3a5d2b2-7e7b-8adf-f47b-48c284782eca" executionId="969816dc-42ee-4139-98e7-36cb197467f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e69f4d91-862d-4c1f-8ce8-ac18c91b1046" executionId="7608c1aa-20cd-4209-b9d0-f5838cfb5a32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea37382a-e229-0f26-f638-61865c6375fb" executionId="38b49839-62d2-42dd-93c1-1283858e98f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f410da72-b70b-fdf1-23b3-19d130f30e63" executionId="ea9d78c6-e14e-48f9-b58a-ccbc6129aa4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="199af911-c6f9-4c0c-af84-c0e1249d292f" testId="49c2cf70-c55b-6fe1-0748-e24b3fac3b18" testName="TestSimpleSpare" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="199af911-c6f9-4c0c-af84-c0e1249d292f">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestSimpleSpare 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c37ae96d-b736-4760-bcfa-7e3225a30524" testId="4a71f6df-a40d-72ce-b695-3152fe11c7e6" testName="TestSampleGame" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c37ae96d-b736-4760-bcfa-7e3225a30524">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestSampleGame 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13a8932c-61af-49a0-9f95-b970dad86783" testId="560cf12a-b6af-52af-1b55-0b7afd85ec3f" testName="TestHeartBreak" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13a8932c-61af-49a0-9f95-b970dad86783">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestHeartBreak 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97a8da3b-70c8-4859-a3de-4db658d6d8c9" testId="a51fe5dc-4b6f-f220-54b6-19337e28f5e4" testName="TestSimpleStrike" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97a8da3b-70c8-4859-a3de-4db658d6d8c9">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestSimpleStrike 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="61c07f54-ffb4-4b50-822a-cbc8ba6b0fd7" testId="cdf8eefe-12a3-d707-3154-f2165fcb988e" testName="TestEndOfArray" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61c07f54-ffb4-4b50-822a-cbc8ba6b0fd7">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestEndOfArray 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1938900a-6990-4449-a46b-9a10b24f4599" testId="d53c23bd-c3db-48d3-56fa-aec315209313" testName="TestPerfectGame" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1938900a-6990-4449-a46b-9a10b24f4599">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestPerfectGame 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="969816dc-42ee-4139-98e7-36cb197467f1" testId="e3a5d2b2-7e7b-8adf-f47b-48c284782eca" testName="TestTenthFrameSpare" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="969816dc-42ee-4139-98e7-36cb197467f1">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestTenthFrameSpare 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7608c1aa-20cd-4209-b9d0-f5838cfb5a32" testId="e69f4d91-862d-4c1f-8ce8-ac18c91b1046" testName="TestFourThrowsNoMark" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7608c1aa-20cd-4209-b9d0-f5838cfb5a32">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestFourThrowsNoMark 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="38b49839-62d2-42dd-93c1-1283858e98f8" testId="ea37382a-e229-0f26-f638-61865c6375fb" testName="TestSimpleFrameAfterSpare" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38b49839-62d2-42dd-93c1-1283858e98f8">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestSimpleFrameAfterSpare 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea9d78c6-e14e-48f9-b58a-ccbc6129aa4f" testId="f410da72-b70b-fdf1-23b3-19d130f30e63" testName="TestTwoThrowsNoMark" computerName="F5LI4IXVQMXTMAN" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea9d78c6-e14e-48f9-b58a-ccbc6129aa4f">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: 在 BowlingGameTest.GameTest.TestTwoThrowsNoMark 上非法使用了特性。只能在用 TestClass 特性标记的类的内部定义 TestMethodAttribute。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e35c8def-86f2-4e64-ae92-7fd41df5e70c" name="Administrator@F5LI4IXVQMXTMAN 2012-04-19 23:09:38" runUser="F5LI4IXVQMXTMAN\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="55eddd7f-e26d-4924-ac12-753d806eb0d4">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_F5LI4IXVQMXTMAN 2012-04-19 23_09_38" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T23:09:38.4033203+08:00" queuing="2012-04-19T23:09:38.4345703+08:00" start="2012-04-19T23:09:38.4658203+08:00" finish="2012-04-19T23:09:39.8564453+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="1" error="0" failed="9" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSimpleStrike" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="a51fe5dc-4b6f-f220-54b6-19337e28f5e4">
+      <Execution id="8d705a7a-b0a8-4661-95ff-fac5c8c28d05" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleStrike" />
+    </UnitTest>
+    <UnitTest name="TestFourThrowsNoMark" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="e69f4d91-862d-4c1f-8ce8-ac18c91b1046">
+      <Execution id="4ae037ad-6d3c-450d-9d6a-16e6a82c8ecc" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFourThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestSimpleFrameAfterSpare" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="ea37382a-e229-0f26-f638-61865c6375fb">
+      <Execution id="75e1fb63-9f1e-432b-8496-a397d67b14d4" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleFrameAfterSpare" />
+    </UnitTest>
+    <UnitTest name="TestPerfectGame" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="d53c23bd-c3db-48d3-56fa-aec315209313">
+      <Execution id="4bce2e60-200e-456a-88e7-3c5f09eced34" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPerfectGame" />
+    </UnitTest>
+    <UnitTest name="TestTwoThrowsNoMark" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="f410da72-b70b-fdf1-23b3-19d130f30e63">
+      <Execution id="fecf89f7-e352-4a66-a696-83d5282e22e2" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTwoThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestHeartBreak" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="560cf12a-b6af-52af-1b55-0b7afd85ec3f">
+      <Execution id="f923d4bd-2e2f-4097-9c90-e6010f1d8f18" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeartBreak" />
+    </UnitTest>
+    <UnitTest name="TestEndOfArray" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="cdf8eefe-12a3-d707-3154-f2165fcb988e">
+      <Execution id="c26cb769-fc97-4caf-8aca-5d5f2e333575" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEndOfArray" />
+    </UnitTest>
+    <UnitTest name="TestSimpleSpare" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="49c2cf70-c55b-6fe1-0748-e24b3fac3b18">
+      <Execution id="1c8cb206-9527-49e2-93c2-18572207394f" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleSpare" />
+    </UnitTest>
+    <UnitTest name="TestSampleGame" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="4a71f6df-a40d-72ce-b695-3152fe11c7e6">
+      <Execution id="5895f12e-aa07-49f7-8f54-46eedb50b360" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSampleGame" />
+    </UnitTest>
+    <UnitTest name="TestTenthFrameSpare" storage="e:\bowlinggame\bowlinggametest\bowlinggametest\bin\debug\bowlinggametest.dll" id="e3a5d2b2-7e7b-8adf-f47b-48c284782eca">
+      <Execution id="7f114894-8f8f-447e-a9c3-a20828bb85d6" />
+      <TestMethod codeBase="E:/BowlingGame/BowlingGameTest/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest.GameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTenthFrameSpare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="49c2cf70-c55b-6fe1-0748-e24b3fac3b18" executionId="1c8cb206-9527-49e2-93c2-18572207394f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a71f6df-a40d-72ce-b695-3152fe11c7e6" executionId="5895f12e-aa07-49f7-8f54-46eedb50b360" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="560cf12a-b6af-52af-1b55-0b7afd85ec3f" executionId="f923d4bd-2e2f-4097-9c90-e6010f1d8f18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a51fe5dc-4b6f-f220-54b6-19337e28f5e4" executionId="8d705a7a-b0a8-4661-95ff-fac5c8c28d05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdf8eefe-12a3-d707-3154-f2165fcb988e" executionId="c26cb769-fc97-4caf-8aca-5d5f2e333575" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d53c23bd-c3db-48d3-56fa-aec315209313" executionId="4bce2e60-200e-456a-88e7-3c5f09eced34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3a5d2b2-7e7b-8adf-f47b-48c284782eca" executionId="7f114894-8f8f-447e-a9c3-a20828bb85d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e69f4d91-862d-4c1f-8ce8-ac18c91b1046" executionId="4ae037ad-6d3c-450d-9d6a-16e6a82c8ecc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea37382a-e229-0f26-f638-61865c6375fb" executionId="75e1fb63-9f1e-432b-8496-a397d67b14d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f410da72-b70b-fdf1-23b3-19d130f30e63" executionId="fecf89f7-e352-4a66-a696-83d5282e22e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c8cb206-9527-49e2-93c2-18572207394f" testId="49c2cf70-c55b-6fe1-0748-e24b3fac3b18" testName="TestSimpleSpare" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0350880" startTime="2012-04-19T23:09:38.5439453+08:00" endTime="2012-04-19T23:09:39.1376953+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c8cb206-9527-49e2-93c2-18572207394f">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestSimpleSpare 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestSimpleSpare() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5895f12e-aa07-49f7-8f54-46eedb50b360" testId="4a71f6df-a40d-72ce-b695-3152fe11c7e6" testName="TestSampleGame" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0052173" startTime="2012-04-19T23:09:39.1533203+08:00" endTime="2012-04-19T23:09:39.1689453+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5895f12e-aa07-49f7-8f54-46eedb50b360">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestSampleGame 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestSampleGame() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f923d4bd-2e2f-4097-9c90-e6010f1d8f18" testId="560cf12a-b6af-52af-1b55-0b7afd85ec3f" testName="TestHeartBreak" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0112306" startTime="2012-04-19T23:09:39.1689453+08:00" endTime="2012-04-19T23:09:39.2001953+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f923d4bd-2e2f-4097-9c90-e6010f1d8f18">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestHeartBreak 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestHeartBreak() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 127
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8d705a7a-b0a8-4661-95ff-fac5c8c28d05" testId="a51fe5dc-4b6f-f220-54b6-19337e28f5e4" testName="TestSimpleStrike" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0145535" startTime="2012-04-19T23:09:39.2158203+08:00" endTime="2012-04-19T23:09:39.2470703+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d705a7a-b0a8-4661-95ff-fac5c8c28d05">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestSimpleStrike 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestSimpleStrike() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c26cb769-fc97-4caf-8aca-5d5f2e333575" testId="cdf8eefe-12a3-d707-3154-f2165fcb988e" testName="TestEndOfArray" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0083901" startTime="2012-04-19T23:09:39.2626953+08:00" endTime="2012-04-19T23:09:39.2783203+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c26cb769-fc97-4caf-8aca-5d5f2e333575">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestEndOfArray 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestEndOfArray() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4bce2e60-200e-456a-88e7-3c5f09eced34" testId="d53c23bd-c3db-48d3-56fa-aec315209313" testName="TestPerfectGame" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0055788" startTime="2012-04-19T23:09:39.2939453+08:00" endTime="2012-04-19T23:09:39.2939453+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bce2e60-200e-456a-88e7-3c5f09eced34">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestPerfectGame 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestPerfectGame() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7f114894-8f8f-447e-a9c3-a20828bb85d6" testId="e3a5d2b2-7e7b-8adf-f47b-48c284782eca" testName="TestTenthFrameSpare" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0022394" startTime="2012-04-19T23:09:39.3095703+08:00" endTime="2012-04-19T23:09:39.3251953+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f114894-8f8f-447e-a9c3-a20828bb85d6">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestTenthFrameSpare 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestTenthFrameSpare() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4ae037ad-6d3c-450d-9d6a-16e6a82c8ecc" testId="e69f4d91-862d-4c1f-8ce8-ac18c91b1046" testName="TestFourThrowsNoMark" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0155125" startTime="2012-04-19T23:09:39.4033203+08:00" endTime="2012-04-19T23:09:39.4189453+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ae037ad-6d3c-450d-9d6a-16e6a82c8ecc">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestFourThrowsNoMark 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestFourThrowsNoMark() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 34
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75e1fb63-9f1e-432b-8496-a397d67b14d4" testId="ea37382a-e229-0f26-f638-61865c6375fb" testName="TestSimpleFrameAfterSpare" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0066662" startTime="2012-04-19T23:09:39.4501953+08:00" endTime="2012-04-19T23:09:39.4501953+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75e1fb63-9f1e-432b-8496-a397d67b14d4">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingGameTest.GameTest.TestSimpleFrameAfterSpare 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingGameTest.GameTest.TestSimpleFrameAfterSpare() 位置 E:\BowlingGame\BowlingGameTest\BowlingGameTest\GameTest.cs:行号 55
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fecf89f7-e352-4a66-a696-83d5282e22e2" testId="f410da72-b70b-fdf1-23b3-19d130f30e63" testName="TestTwoThrowsNoMark" computerName="F5LI4IXVQMXTMAN" duration="00:00:00.0015214" startTime="2012-04-19T23:09:39.4658203+08:00" endTime="2012-04-19T23:09:39.4814453+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fecf89f7-e352-4a66-a696-83d5282e22e2">
+    </UnitTestResult>
+  </Results>
+</TestRun>
